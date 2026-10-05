@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+@theme {
+
+    --color-primary: #2877f5;
+    --color-secondary: #20295c;
+}
+
+.nav-item{
+    @apply p-3 rounded-lg hover:bg-black/5 transition-colors duration-300 flex gap-2 items-center font-semibold;
+}
+
+.item-selected {
+    @apply hover:bg-slate-300 bg-slate-300 hover:shadow text-primary;
+}
+
+
+.item{
+
+}
